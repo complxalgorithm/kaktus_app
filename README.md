@@ -6,7 +6,7 @@ A simple text converter app. Copy and paste/type some text into the box, press c
 * Save to your hard drive or upload to a cloud storage service.
 * Repeat!
 
-Languages/Frameworks/Stacks
+## Languages/Frameworks/Stacks
 * HTML5/CSS3
 * JavaScript
 * Go
