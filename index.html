@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Kaktus</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles1.css">
+  </head>
+
+  <script src="main1.js"></script>
+  <script src="manifest.json"></script>
+
+  <body>
+    <button id="aboutBtn" onClick="contact()">Contact</button>
+
+    <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle" aria-label="menu" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        Dropdown
+        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contribute.html">Contribute</a></li>
+      </ul>
+    </div>
+
+    <header class="page-header">
+      <h1>Kaktus</h1>
+    </header>
+
+    <div id="mainIntro">
+      <article>
+        <small><h2>Welcome!</h2></small>
+        <p>I appreciate you wanting to use this app! It's simple: <i>all</i> you
+        have to do is press "Start," enter some text into the text area, press
+        "Convert," and you'll be on your way to having your own Word doc or PDF
+        of that text. Happy converting!</p>
+      </article>
+    </div>
+
+    <div id="mainBtns">
+      <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+        <a href="convertpage.html">Start</a>
+      </button>
+    </div>
+
+    <div>
+      <button type="button" class="btn btn-default btn-lg" aria-label="settings">
+        <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+      </button>
+    </div>
+  </body>
+</html>
