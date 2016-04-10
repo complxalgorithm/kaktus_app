@@ -9,5 +9,6 @@ A simple text converter app. Copy and paste/type some text into the box, press c
 ## Languages/Frameworks/Stacks
 * HTML5/CSS3
 * JavaScript
-* Go
+* PHP
 * Bootstrap
+* Dropbox/Google Drive APIs
