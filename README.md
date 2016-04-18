@@ -1,5 +1,6 @@
 # Kaktus
-A simple text converter app. Copy and paste/type some text into the box, press convert, and you've got yourself a document.
+<b>STILL UNDER DEVELOPMENT</b>
+A simple text converter web app. Copy and paste/type some text into the box, press convert, and you've got yourself a document.
 
 ## Features
 * Simple text conversion which will give you the option of converting text into either a Word document or PDF.
