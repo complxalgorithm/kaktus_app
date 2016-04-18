@@ -8,7 +8,7 @@ A simple text converter web app. Copy and paste/type some text into the box, pre
 * Save to your hard drive or upload to a cloud storage service.
 * Repeat!
 
-## Languages/Frameworks/Stacks
+## Languages/Frameworks/Technologies
 * HTML5/CSS3
 * JavaScript
 * PHP
