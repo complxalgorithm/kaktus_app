@@ -5,7 +5,7 @@ A simple text converter web app. Copy and paste/type some text into the box, pre
 
 ## Features
 * Simple text conversion which will give you the option of converting text into either a Word document or PDF.
-* Save to your hard drive or upload to a cloud storage service.
+* Save to your hard drive or upload to a cloud storage service (eventually).
 * Repeat!
 
 ## Languages/Frameworks/Technologies
@@ -13,4 +13,6 @@ A simple text converter web app. Copy and paste/type some text into the box, pre
 * JavaScript
 * PHP
 * Bootstrap
-* Dropbox/Google Drive APIs
+* jQuery
+* jsPDF.js/DOCX.js
+* Dropbox/Google Drive APIs (eventually)
