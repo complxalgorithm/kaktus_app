@@ -1,5 +1,4 @@
 # Kaktus
-<b>STILL UNDER DEVELOPMENT</b>
 
 A simple text converter web app. Copy and paste/type some text into the box, press convert, and you've got yourself a document.
 
@@ -9,7 +8,7 @@ A simple text converter web app. Copy and paste/type some text into the box, pre
 * Repeat!
 
 ## Add Features with Me
-If there's a feature you think would be a great addition to the application, feel free to contact me at sup@kaktusapp.cpm if you would want to collaborate with me on it.
+If there's a feature you think would be a great addition to the application, feel free to contact me at sup@kaktusapp.cpm if you would want to collaborate with me on it. I have a lot of features in mind, so I encourage you to email me so that we can make this application better.
 
 ## Languages/Frameworks/Technologies
 * HTML5/CSS3
