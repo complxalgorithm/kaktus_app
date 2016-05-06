@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>About</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="jquery.modal.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="social.css">
+    <link rel="stylesheet" href="modal.css">
+  </head>
+
+  <body>
+    <div class="jumbotron">
+      <header class="page-header text-center">
+        <h1 class="text-center">About</h1>
+      </header>
+    </div>
+
+    <div id="mod" style="display:none;">
+      <h2 class="text-center">Email me here:</h2>
+      <p class="text-center"><a href="mailto:sup@kaktusapp.com">sup@kaktusapp.com</a></p>
+      <button type="button" class="btn btn-lg"><a rel="modal:close">Close</a></button>
+    </div>
+    <button type="button" class="btn btn-lg" id="contactBtn"><a href="#mod" rel="modal:open">Contact</a></button>
+
+    <div id="menu" class="dropdown">
+      <button class="btn btn-default dropdown-toggle" aria-label="menu" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contribute.html">Contribute</a></li>
+      </ul>
+    </div>
+
+    <div id="faceimg">
+      <img src="FullSizeRender.jpg" />
+    </div>
+
+    <article id="art1">
+      <h2 class="text-center">Hey, I'm Stephen.</h2>
+      <div>
+        <p>
+          I'm a 19-year-old college student from Brockport, NY studying Computer Science and Philosophy. I developed this application as a project for a class, but I definitely have plans of turning it into something much bigger in the future.
+        </p>
+        <p>
+          Connect with me on social networking websites. The links to my profiles are below:
+        </p>
+      </div>
+    </article>
+    <div id="soc" class="col-md-12">
+      <ul class="social-network social-circle">
+        <li><a href="https://www.facebook.com/Scsandman4" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/ComplxAlgorithm" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://plus.google.com/u/0/+StephenSanders6496" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/stephen-sanders-41a03b110" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+		</div>
+
+    <button type="button" id="blogButton" class="btn btn-md"><a href="https://philosowiseblog.wordpress.com">Blog</a></button>
+
+    <img src="mylilrats.jpg" id="ratsimg"/>
+    <p id="ratp">These are my rats: Ptolemy and Bernie :)</p>
+
+    <footer id="foot" class="footer text-center">Copyright &copy; 2016 Stephen Sanders</footer>
+
+    <script src="main1.js" type="text/javascript"></script>
+  </body>
+
+</html>
