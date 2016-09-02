@@ -1,4 +1,4 @@
-# Kaktus
+# Kaktus  [![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](http://stackshare.io/complxalgorithm/kaktus)
 
 A simple text converter web app. Copy and paste/type some text into the box, press convert, and you've got yourself a document.
 
