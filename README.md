@@ -3,7 +3,7 @@
 A simple text converter web app. Copy and paste/type some text into the box, press convert, and you've got yourself a document.
 
 ## Features
-* Simple text conversion which will give you the option of converting text into a .txt file, a Word document or PDF.
+* Simple text conversion which will allow you to convert text into a .txt file and will at some point include support for conversions to Word documents and PDFs, among others.
 * Save to your hard drive or upload to a cloud storage service (eventually).
 * Repeat!
 
@@ -18,5 +18,5 @@ If there's a feature you think would be a great addition to the application, fee
 * FileSaver.js
 * Dropbox/Google Drive APIs (eventually)
 
-<footer>&copy; 2016 Stephen Sanders</footer>
-<p>This web application is officially licensed under the GPL, Version 3.</p>
+<footer>&copy; 2016-2017 Stephen Sanders</footer>
+<p>This web application is licensed under the GPL v3.</p>
