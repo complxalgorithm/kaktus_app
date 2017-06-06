@@ -11,11 +11,12 @@ function txtDoc1() {
   var blob = new Blob([text], {type: "text/plain;charset=utf-8"});
 
   // Validate that file extension is .txt and nothing else
+  /*
   var re = /(\.txt)$/i;
   if (!re.exec(filename)) {
     alert("This application only supports .txt file downloads.");
-    break;
   }
+  */
 
   saveAs(blob, filename);
 }
